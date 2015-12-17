@@ -93,6 +93,7 @@ h2 span{
 }
 /* ------------------------------  Start header ------------------------------ */
 header{
+	position: relative;
 	width: 100%;
 	background: url(images/header/header-bg.jpg);
 }
@@ -168,13 +169,14 @@ header{
 	outline: 0px solid #c0cfc0;
 }
 .nav-menu-inner > li{
+	position: relative;
 	float: left;
 }
 .nav-menu-inner > li > a{
 	display: table-cell;
 	vertical-align: middle;
 	height: 66px;
-	padding: 0 36px;
+	padding: 0 33px;
 	text-transform: uppercase;
 	font-size: 18px;
 	color: #f5f5f5;
@@ -183,11 +185,51 @@ header{
 	text-decoration: none;
 	background: #0c0e0a;
 }
-.nav-menu-inner > li:first-child > a{
+/*.nav-menu-inner > li:first-child > a{
 	padding-left: 0;
-}
+}*/
 .nav-menu-inner > li:last-child > a{
 	padding-right: 0;
+}
+.nav-menu-inner > li:first-child > ul{
+	width: 1140px;
+	height: 61px;
+}
+.nav-menu-inner > li:nth-child(2) > ul{
+	width: 298px;
+}
+.nav-menu-inner > li > ul{
+	display: none;
+	position: absolute;		
+	background: #0c0e0a;	
+	z-index: 10;
+} 
+.nav-menu-inner > li:hover > ul{
+	display: block;
+}
+.nav-menu-inner > li:first-child > ul > li{	
+	float: left;
+}
+.nav-menu-inner > li > ul > li > a{
+	display: block;	
+	padding: 20px 33px 8px 33px;
+	font-weight: 300;
+	font-size: 17px;
+	color: #f5f5f5;
+}
+.nav-menu-inner > li:nth-child(2) > ul > li:last-child > a{
+	padding-bottom: 30px;
+}
+.nav-menu-hover{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 61px;
+	background: #0c0e0a;	
+	z-index: 1;
+}
+.nav-menu-inner > li:first-child:hover  .nav-menu-hover{
+	display: block;
 }
 /* ------------------------------  Stop header ------------------------------ */
 
@@ -220,7 +262,8 @@ header{
 	position: relative;
 	width: 100%;
 	outline: 0px solid #cfff00;	
-	background: url(images/block-2/slider/1.jpg) no-repeat;
+	background: url(images/block-2/slider/1.jpg) center center no-repeat;3
+	background-size: 100% 100%;
 }
 .block2-img1{
 	position: absolute;
@@ -712,7 +755,7 @@ footer{
 	background: url(images/footer/contact/3.png) no-repeat;
 }
 .social li{
-	padding: 0 12px;
+	padding: 0 12px 0 12px;
 	float: left;
 }
 /* footer-phone */
@@ -754,3 +797,200 @@ footer{
 }
 /* ------------------------------  Stop footer ------------------------------ */
 /* ------------------------------  Stop .block-6 ------------------------------ */
+/*-----------------------------------------------------------------------------------*/
+/*  CONTACT
+/*-----------------------------------------------------------------------------------*/
+/* block-contact */
+.block-contact{
+	position: relative;
+	background: url(images/page-contact/block-contact-bg.png) no-repeat right bottom;
+}
+.block-contact-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.block-contact-inner{
+	overflow: hidden;
+	width: 1140px;
+	margin: 0 auto;
+	padding-bottom: 155px;
+	font-size: 18px;	
+	outline: 0px solid #E02638;
+}
+.block-contact h2{
+	padding: 64px 0 63px 0;
+}
+.bc-left{
+	width: 555px;
+    padding: 9px 0 0 0;
+	color: #353535;
+	float: left;
+}
+.bc-left > ul > li{
+    padding: 10px 0;
+	border-bottom: 1px dotted #efefef;
+}
+.bc-left > ul > li:last-child{
+	position: relative;
+	border: none
+}
+.bc-left span{
+	display: inline-block;
+	line-height: 30px;
+}
+span.bcl-first{
+	display: block;
+	padding: 0px 0 0 30px;
+	color: #757575;
+}
+.r-project{
+	padding-left: 30px;
+}
+.bclf-1{
+	background: url(images/page-contact/1.png) no-repeat left center;
+}
+.bclf-2{
+	background: url(images/page-contact/2.png) no-repeat left center;
+}
+.bclf-3{
+	background: url(images/page-contact/3.png) no-repeat left center;
+}
+.bclf-4{
+	background: url(images/page-contact/4.png) no-repeat left center;
+}
+.bclf-5{
+	background: url(images/page-contact/5.png) no-repeat left center;
+}
+.bc-left p{
+	display: inline-block;
+	line-height: 34px;
+	font-weight: 600;	
+}
+.bc-left > ul > li:last-child p{
+	position: absolute;
+}
+.bc-left > ul > li:last-child span{
+	width: 165px;
+}
+.bc-left > ul > li:last-child ul li{
+	padding: 10px 0;
+}
+.bc-left > ul > li:last-child ul li:first-child{
+	border-bottom: 1px dotted #efefef;
+}
+.bc-left form{
+
+}
+.bc-left form h2{
+	padding: 73px 0 36px 0;
+	text-align: left;
+	font-size: 30px;
+}
+.bc-left form input{
+	width: 100%;
+	height: 52px;
+    margin-bottom: 28px;
+	border: 3px solid #fbc02d;
+	padding-left: 15px;
+	border-radius: 6px;
+}
+.bc-left form textarea{
+	width: 100%;
+	height: 171px;
+	border: 3px solid #fbc02d;
+	padding-top: 15px;
+	border-radius: 3px;
+}
+.bc-left form input[type=submit]{
+	width: 142px;
+    height: 39px;
+    margin-top: 28px;
+    padding: 2px 0px 0 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16.15px;
+    color: #212121;
+    background: #fbc02d;
+    box-shadow: 1px 4.5px 0px -2px #aa662a;
+}
+.bc-left form input[type=submit]:hover {
+    color: #fbc02d;
+    background: #212121;
+    border: #212121;
+}
+.bc-left ::-webkit-input-placeholder { 
+	font-size: 18px;
+	color: #d7d7d7;
+	padding-left: 20px;
+}
+.bc-left input :-moz-placeholder {
+	font-size: 18px;
+	color: #d7d7d7;
+	padding-left: 20px;
+}
+.bc-left input ::-moz-placeholder { 
+	font-size: 18px;
+	color: #d7d7d7;
+	padding-left: 20px;
+}
+.bc-left :-ms-input-placeholder { 
+	font-size: 18px;
+	color: #d7d7d7;
+	padding-left: 20px;
+}
+.bc-left ul li:first-child ::-webkit-input-placeholder { 
+	background: url(images/page-contact/placeholder-bg.png) no-repeat;
+}
+.bc-left ul li:first-child :-moz-placeholder {
+	background: url(images/page-contact/placeholder-bg.png) no-repeat;
+}
+.bc-left ul li:first-child ::-moz-placeholder { 
+	background: url(images/page-contact/placeholder-bg.png) no-repeat;
+}
+.bc-left ul li:first-child :-ms-input-placeholder { 
+	background: url(images/page-contact/placeholder-bg.png) no-repeat;
+}
+.bc-left ul li:nth-child(2) ::-webkit-input-placeholder { 
+	padding-left: 25px;
+	background: url(images/page-contact/placeholder2-bg.png) no-repeat;
+}
+.bc-left ul li:nth-child(2) :-moz-placeholder {
+	padding-left: 25px;
+	background: url(images/page-contact/placeholder2-bg.png) no-repeat;
+}
+.bc-left ul li:nth-child(2) ::-moz-placeholder { 
+	padding-left: 25px;
+	background: url(images/page-contact/placeholder2-bg.png) no-repeat;
+}
+.bc-left ul li:nth-child(2) :-ms-input-placeholder { 
+	padding-left: 25px;
+	background: url(images/page-contact/placeholder2-bg.png) no-repeat;
+}
+
+
+
+
+.bc-right{
+	width: 555px;
+	padding-top: 2px;
+	float: right;
+}
+.bc-right > div{	
+	border: 3px solid #fbc02d;
+}
+.bc-right > p{
+	padding: 25px 0;
+	font-weight: 600;
+	font-size: 24px;
+	color: #212121;
+}
+
+/* contact-footer */
+.contact-footer{
+	position: relative;
+	background: url(images/footer/contact-footer.jpg);
+}
+
+
+

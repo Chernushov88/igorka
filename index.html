@@ -45,6 +45,20 @@
 				
 			});
 		</script>
+		<script>
+			$(document).ready(function(){
+
+				$(".li-first-child").hover(
+				  function () {
+				    $('.nav-menu-hover').css('display', 'block');
+				  },
+				  function () {
+				     $('.nav-menu-hover').css('display', 'none');
+				  }
+			);
+			});
+
+		</script>	
 		<!--[if lt IE 9]>
 			<link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
 			<script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js" data-text="Ваш браузер застарел, обновите свой браузер"></script>
@@ -58,7 +72,7 @@
 		<!--  Start header -->
 		<header>
 			<div class="header-inner">
-				<a href="" class="logo"><img src="images/header/logo-bg.png" alt=""></a>				
+				<a href="" class="logo"><img src="images/header/logo-bg.png" alt=""></a>
 				<p>Продажа земельных участков по всей московской области</p>
 				<h4><span class="sales">Уже продано</span>более <span class="sections-346">346 участков</span></h4>
 				<span class="phone">+7 (123) <span>456 78 90</span></span>
@@ -66,8 +80,34 @@
 			</div>
 			<nav class="nav-menu">
 				<ul class="nav-menu-inner">
-					<li><a href="#">наши поселки</a></li>
-					<li><a href="#">наши услуги</a></li>
+					<li class="li-first-child">
+						<a href="#">наши поселки</a>
+						<ul>
+							<li><a href="">По названию</a></li>
+							<li><a href="">По району</a></li>
+							<li><a href="">По направлению</a></li>
+							<li><a href="">Эконом</a></li>
+							<li><a href="">По шоссе</a></li>
+							<li><a href="">Новые</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">наши услуги</a>
+						<ul>
+							<li><a href="">Электрификация</a></li>
+							<li><a href="">Газификация</a></li>
+							<li><a href="">Строительство дорог</a></li>
+							<li><a href="">Строительство заборов</a></li>
+							<li><a href="">Строительство домов</a></li>
+							<li><a href="">Проведение коммуникаций <br>к дому и в доме</a></li>
+							<li><a href="">Аэросъемка с помощью <br>квадрокоптера</a></li>
+							<li><a href="">Покупка земли</a></li>
+							<li><a href="">Реализация земли</a></li>
+							<li><a href="">Юридические услуги</a></li>
+							<li><a href="">Рекламные услуги</a></li>
+							<li><a href="">Обучение и консультация</a></li>
+						</ul>
+					</li>
 					<li><a href="#">о нас</a></li>
 					<li><a href="#">вопрос-ответ</a></li>
 					<li><a href="#">отзывы</a></li>
@@ -75,6 +115,7 @@
 					<li><a href="#">контакты</a></li>
 				</ul>
 			</nav>
+			<div class="nav-menu-hover"></div>
 		</header>
 		<!-- Stop header -->
 		<!--  Start block-1 -->
@@ -309,7 +350,7 @@
 					</li>
 				</ul>
 			</div>
-			<!--  Start  -->
+			<!--  Start footer -->
 			<footer>
 				<div class="block-6-img2"><img src="images/block-6/img-2.png" alt=""></div>
 				<div class="footer-inner">
@@ -362,11 +403,8 @@
 				</div>
 			</footer>
 
-		<!-- Stop  -->
+		<!-- Stop footer -->
 		</div>
 		<!-- Stop block-6 -->
-		
-		
-		
 	</body>
 </html>
