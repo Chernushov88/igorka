@@ -14,9 +14,11 @@
 		<link rel="shortcut icon" href="favicon.ico" />
 		<link rel="stylesheet" href="style.css">	
 		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<!-- bxSlider CSS file -->
+		<link href="css/jquery.bxslider.css" rel="stylesheet">
 		<!-- script -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>	
-		<script src="js/myscript.js" type="text/javascript"></script>		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>		
+		<script src="js/myscript.js" type="text/javascript"></script>
 		<!--[if lt IE 9]>
 			<link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
 			<script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js" data-text="Ваш браузер застарел, обновите свой браузер"></script>
@@ -77,67 +79,118 @@
 		</header>
 		<!-- Stop header -->
 		<!--  Start block-1 -->
-		<div class="block-contact">
-		<div class="block-contact-img"><img src="images/page-contact/block-contact-img.png" alt=""></div>
-			<div class="block-contact-inner">
-				<h2><span></span>контактная информация<span></span></h2>
-				<div class="bc-left">
-					<ul>
-						<li>
-							<span class="bcl-first bclf-1">E-mail</span>
-							<p>6080366@gmail.com</p>
-						</li>
-						<li>
-							<span class="bcl-first bclf-2">Телефон</span>
-							<span>Москва</span><p> – 8 (800) 333-21-37;</p><br>
-							<span>Область</span><p> – 8 (903) 274-51-59</p>
-						</li>
-						<li>
-							<span class="bcl-first bclf-3">Наш адрес</span>
-							<p>Москва, Рязанский проспект, 75,  11 этаж, к4;</p>
-							<span class="r-project bclf-4">Рязанский проспект (3 мин от метро)</span>
-							<p>Московская область, Cело Заворово</p>
-						</li>
-						<li>
-							<span class="bcl-first bclf-5">График работы</span>
-							<ul>
-								<li>
-									<span>Отдел продаж</span>
-									<p>ПН-ВС  09:00 – 21:00</p>
-								</li>
-								<li>
-									<span>Управляющий <br>поселками</span>
-									<p>ПН-ПТ  10:00 до 19:00</p>
-								</li>
-							</ul>
-						</li>
-					</ul>
-					<form action="">
-						<h2>звязаться с нами</h2>
-						<ul>
-							<li><input type="text" placeholder="Имя"></li>
-							<li><input type="text" placeholder="Email"></li>
-							<li><textarea name="" placeholder="Введите ваше сообщение..."></textarea></li>
-							<li><input type="submit" value="отправить"></li>
-						</ul>
-					</form>
-				</div>
-				<div class="bc-right">
-					<div class="yandex-map-1">
-						<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=PnFwQR-7GgwWFB8CwBozxq5G4ZhbL9X-&height=550&lang=ru_UA&sourceType=constructor"></script>
-					</div>
-					<p>Москва, Рязанский проспект, 75, к4; 11 этаж</p>
-					<div class="yandex-map-1">
-						<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=PnFwQR-7GgwWFB8CwBozxq5G4ZhbL9X-&height=550&lang=ru_UA&sourceType=constructor"></script>
-					</div>
-					<p>Cело Заворово, Московская область</p>
-				</div>
-			</div>	
+		<div class="block-1">
+			<h3><span></span>Акция!<span></span></h3>
+			<h2>Покупка земельных участков в рассрочку!</h2>
+			
 		</div>
 		<!-- Stop block-1 -->
-		
+		<!--  Start block-2-order -->
+		<div class="block-2-order">
+			<div class="b2o-inner">
+				<div class="b2o-inner-img">
+					<img src="images/page-order/logo2-bg.png" alt="">
+				</div>				
+				<h2>поселок “уютный”</h2>
+				<h3>Для тех, кто любит комфорт</h3>
+			</div>
+		</div>
+		<!-- Stop block-2-order -->
+		<!--  Start block --> 
+		<div class="order-block">
+			<div class="order-block-inner">
+				<div class="register">
+					<div class="register-img">
+						<img src="images/page-order/register/img-bg.jpg" alt="">
+					</div>					
+					<ul>
+						<li><a href="">Располагается возле трассы</a></li>
+						<li><a href="">Близко к крупному населенному пункту</a></li>
+						<li><a href="">Охрана круглые сутки</a></li>
+						<li><a href="">Есть все необходимые коммуникации</a></li>
+						<li>
+							<p>Сменив шумный мегаполис на уютный поселок в Подмосковье, не нужно отказываться от благ цивилизации. Ведь проживание в хорошо обустроенном дачном поселке позволяет одновременно наслаждаться и красотой окружающей природы, и чистотой воздуха.</p>
+						</li>
+						<li>
+							<a href="#" class="sing-up">записаться на просмотр</a>
+							<a href="#" class="remember">запомнить поселок</a>
+						</li>
+					</ul>
+				</div>
+			</div>	
+			<nav class="order-nav-menu">
+				<ul>
+					<li><a href="">О поселке</a></li>
+					<li><a href="">Фото</a></li>
+					<li><a href="">Порядок приобретения</a></li>
+					<li><a href="">План поселка</a></li>
+					<li><a href="">Окружение</a></li>
+					<li><a href="">Кадастровая карта</a></li>
+					<li><a href="">Отзывы</a></li>
+				</ul>
+			</nav>	
+			<div class="order-block-inner">
+				<div class="cadastral-extract">
+					<p>Посёлок «Три Жеребенка» находится недалеко от города Бронницы. Пригоден для постоянного места жительства.</p>
+					<p><span>Почтовый адрес: </span>Московская область, Бронницкий район, ул. Уютная 2.</p>
+					<a href="#">Кадастровая выписка</a>
+				</div>				
+				<div class="cadastral-map">
+					<h2><span></span>категория земель<span></span></h2>
+					<div class="cm-left">
+						<ul>
+							<li><a href="#"><img src="images/page-order/cadastral-map/1.png" alt=""></a><p><span>Категория земель в поселке: </span>земли сельскохозяйственного назначения</p></li>
+							<div class="clear"></div>
+							<li><a href="#"><img src="images/page-order/cadastral-map/2.png" alt=""></a><p><span>Вид разрешенного использования земель: </span>для дачного строительства</p></li>
+						</ul>
+					</div>	
+					<a href="#" class="cm-right">кадастровая карта поселка</a>
+				</div>				
+				<ul class="purchase-order">
+					<h2><span></span>ПОРЯДОК ПОКУПКИ<span></span></h2>
+					<li>
+						<img src="images/page-order/purchase-order/1.png" alt="">
+						<h5>Устная бронь участка </h5>
+						<span>Сроком до 5 дней</span>
+					</li>
+					<li>
+						<img src="images/page-order/purchase-order/2.png" alt="">
+						<h5>Предварительный договор и аванс</h5>
+						<span>Бронь на 30 дней с возможностью возврата аванса</span>
+					</li>
+					<li>
+						<img src="images/page-order/purchase-order/3.png" alt="">
+						<h5>Заключение основного договора</h5>
+						<span>Вы приобретаете земельный участок по договору купли-продажи</span>
+					</li>
+					<li>
+						<img src="images/page-order/purchase-order/4.png" alt="">
+						<h5>Регистрация собственности</h5>
+						<span>На ваше имя оформляется <br><a href="">Свидетельство о праве собственности</a></span>
+					</li>
+					<li>
+						<img src="images/page-order/purchase-order/5.png" alt="">
+						<h5>Вручение свидетельства</h5>
+						<span>По истечению 30 дней с момента заключения договора</span>
+					</li>
+				</ul>				
+				<ul class="additional-services">
+					<h2><span></span>дополнительные услуги<span></span></h2>
+					<li><a href=""><img src="images/page-order/additional-services/1.png" alt=""><span>Строительные работы</span></a></li>
+					<li><a href=""><img src="images/page-order/additional-services/2.png" alt=""><span>Услуги по регистрации</span></a></li>
+					<li><a href=""><img src="images/page-order/additional-services/3.png" alt=""><span>Строительство домов</span></a></li>
+					<li><a href=""><img src="images/page-order/additional-services/4.png" alt=""><span>Все для сада и огорода</span></a></li>
+				</ul>
+
+
+
+
+
+			</div>			
+		</div>
+		<!-- Stop block -->
 		<!--  Start footer -->
-		<footer class="contact-footer">
+		<footer class="order-footer">
 			<div class="block-6-img2"><img src="images/block-6/img-2.png" alt=""></div>
 			<div class="footer-inner">
 				<div class="footer-logo"><a href="">
@@ -184,8 +237,12 @@
 					<li><p>Интернет сайт носит информативный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 ГК РФ.<br>Для получения информации о стоимости и иных характеристик объектов недвижимости, предоставленных на сайте, обращайтесь к менеджерам компании. </p></li>
 					<li><a href="#">© 2015 good-zem.com</a></li>
 				</ul>
+
+
 			</div>
 		</footer>
-		<!-- Stop footer -->		
+
+		<!-- Stop footer -->
+
 	</body>
 </html>
