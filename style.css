@@ -575,7 +575,7 @@ header{
 }
 .block-6-img1{
 	position: absolute;
-	top: 0;
+	top: -112px;
 	right: 0;
 }
 .block-6-img2{
@@ -1373,15 +1373,180 @@ ul a.remember:hover{
 	text-align: center;
 	font-size: 18px;
 }
-
-
-
-
-
 /* order-footer */
 .order-footer{
 	position: relative;
 	background: url(images/footer/contact-footer.jpg);
+}
+/*-----------------------------------------------------------------------------------*/
+/*  LIST-VILAGE
+/*-----------------------------------------------------------------------------------*/
+.list-vilage{
+	position: relative;
+    background: url(images/block-5/inner1/inner1-bg.png) no-repeat right top, url(images/page-list-vilage/list-vilage-bg.png) no-repeat center bottom ;
+}
+.list-vilage-inner{
+	width: 1140px;
+	padding: 0 0 200px 0;
+	margin: 0 auto;
+	outline: 0px solid #000ec0;
+}
+.list-vilage-inner h2{
+	padding: 63px 0 45px 0;
+}
+.lvi-ul{
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+.lvi-ul > li{
+	position: relative;
+	width: 360px;
+    padding: 66px 0 40px 0;
+	float: left;	
+}
+.lvi-ul > li:nth-child(2){
+	margin: 0 30px;
+}
+.plashka{
+	position: absolute;
+	top: 0;
+}
+.lvi-img p{
+	position: absolute;
+	top: 282px;
+	padding-left: 19px;
+	font-size: 20px;
+	color: #fff;
+}
+.lvi-ul h4{
+	padding: 26px 0 10px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 20px;
+}
+.lvi-ul li:first-child h4{
+	width: 360px;
+    margin-left: -21px;    
+	color: #6da724;
+	letter-spacing: 1px;
+}
+.lvi-ul li:nth-child(2) h4{
+	color: #5d6da7;
+}
+.lvi-ul li:nth-child(3) h4{
+	color: #a6b41b;
+}
+/* lvi-block */
+.lvi-block{
+    margin-top: -3px;
+	padding: 0 25px 24px 21px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	box-shadow: 0px 0px 10px rgba(1,1,1, 0.3);
+}
+.shoce li{
+	height: 49px;
+	padding-top: 15px;
+	border-bottom: 1px dotted #e0e0e0;
+}
+.shoce li:last-child{
+	border: 0;
+}
+.shoce li span{
+	display: inline-block;
+	font-size: 17px
+}
+.shoce li span:first-child{
+	position: relative;
+	padding-left: 32px;
+	float: left;
+	color: #8a8a8a;
+}
+.lvi-span1:before{
+	position: absolute;
+	left: 0;
+	top: 0px;
+	content: '';
+	width: 21px;
+	height: 16px;
+	background: url(images/page-list-vilage/shoce/1.png) no-repeat;
+}
+
+.lvi-span2:before{
+	position: absolute;
+	left: 0;
+	top: 0px;
+	content: '';
+	width: 12px;
+	height: 18px;
+	background: url(images/page-list-vilage/shoce/2.png) no-repeat;
+}
+.lvi-span3:before{
+	position: absolute;
+	left: 0;
+	top: 0px;
+	content: '';
+	width: 19px;
+	height: 16px;
+	background: url(images/page-list-vilage/shoce/3.png) no-repeat;
+}
+.lvi-span5:before{
+	position: absolute;
+	left: 0;
+	top: 0px;
+	content: '';
+	width: 18px;
+	height: 18px;
+	background: url(images/page-list-vilage/shoce/5.png) no-repeat;
+}
+.shoce li span:last-child{	
+	font-weight: 600;
+	float: right;
+}
+/* infrastructure */
+.infrastructure{
+	overflow: hidden;
+}
+.infrastructure h5{
+	padding: 3px 0 20px 0;
+	font-weight: 600;
+}
+.infrastructure li{
+	padding-right: 14px;
+	float: left;
+}
+/* lvi-price */
+.lvi-price{
+	overflow: hidden;
+    padding-top: 19px;
+}
+.lvi-price p{
+	display: inline-block;
+	color: #424242;
+}
+.lvi-price p:first-child{
+    padding-top: 10px;
+	font-weight: 600;
+	font-size: 30px;
+	float: left;
+}
+.lvi-price p:last-child{
+	padding-top: 7px;
+	font-weight: 600;
+	font-size: 38px;
+	float: right;
+}
+.lvi-price p:last-child span{
+	font-size: 30px;
+}
+/* all-a */
+.all-a{
+
+}
+.list-vilage-inner p {
+    padding-bottom: 20px;
+    line-height: 24px;
 }
 
 
