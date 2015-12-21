@@ -371,6 +371,7 @@ header{
 	width: 1140px;	
 	margin: 0 auto;
     padding: 62px 0 44px 0;
+    color: #fff;
 	outline: 0px solid #cc0ff0;
 }
 .block-4-inner h2{
@@ -533,12 +534,12 @@ header{
 .b5i2-ul-right{
 	float: right;
 }
-.b5i2-ul span{
+.b5i2-ul > li > ul > li > p >span{
 	position: relative;
 	padding-left: 22px;
 	font-weight: 600;	
 }
-.b5i2-ul span:before{
+.b5i2-ul > li > ul > li > p >span:before{
 	position: absolute;
     top: 2px;
 	left: 0;
@@ -596,6 +597,8 @@ header{
 }
 .block-6-inner ul{
 	overflow: hidden;
+	position: relative;
+    z-index: 1;
 }
 .block-6-inner ul li{
 	width: 360px;
@@ -1548,11 +1551,132 @@ ul a.remember:hover{
     padding-bottom: 20px;
     line-height: 24px;
 }
+/*-----------------------------------------------------------------------------------*/
+/*  ABOUT-US
+/*-----------------------------------------------------------------------------------*/
+/* about-company */
+.about-company{
 
+}
+.about-company-inner{
+	width: 1140px;
+	margin: 0 auto;
+	outline: 0px solid #000ccc;
+}
+.about-company-inner h2{
+    padding: 63px 0 58px 0;
+}
+.about-company-inner ul{
+	overflow: hidden;
+	line-height: 27px;
+	font-weight: 600;
+	font-size: 18px;
+}
+.about-company-inner ul li:first-child{
+	width: 555px;
+	float: left;
+}
+.about-company-inner ul li:last-child{
+	width: 555px;
+    padding-right: 5px;
+	float: right;
+}
+/* us-block-3 */
+.us-block-3{
 
-
-
-
+}
+.us-block-3-inner{
+	width: 1140px;
+	margin: 0 auto;
+	outline: 0px solid #000fcc;
+}
+.us-block-3 h2{
+	padding: 53px 0 0px 0;
+}
+/* cooperation */
+.cooperation h2{
+    padding: 48px 0 56px 0;
+}
+.cooperation img{
+    width: 100%;
+    height: 278px;
+}
+.coop-quote{
+	height: 105px;
+    margin-top: -2px;
+    padding-left: 23px;
+    line-height: 27px !important;
+    font-weight: 600;
+    font-size: 18px;
+    border-left: 3px solid #fbc02d;
+}
+.map-about-us{
+	overflow: hidden;
+	width: 550px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+/* choose-us */
+.choose-us{
+	position: relative;
+}
+.choose-us .block-6-img1 {
+    top: -80px;
+}
+.choose-us-inner{
+	width: 1140px;
+	margin: 0 auto;
+	outline: 0px solid #0000ff;
+} 
+.choose-us h2{
+    padding: 27px 0 57px 0;
+}
+/* our-details */
+.our-details{
+	width: 750px;
+	margin: 0 auto;
+	padding-bottom: 130px;
+	outline: 0px solid #000ccc;
+}
+.our-details h2{
+	padding: 36px 0 67px 0;
+}
+.our-details ul{
+	padding: 0 29px 15px 29px;
+	line-height: 37px;
+	font-weight: 500;
+	font-size: 18px;
+	color: #353535;	
+    letter-spacing: 0.2px;
+	border: 3px solid #fbc02d;
+}
+.our-details ul li{
+	overflow: hidden;
+    padding-top: 12px;
+	border-bottom: 1px dotted #ebebeb;
+}
+.our-details ul li:last-child{
+	border: none;
+}
+.our-details ul li span{
+	display: inline-block;
+}
+.our-details ul li span:first-child{
+	width: 250px;
+	float: left;
+}
+.our-details ul li span:last-child{
+	width: 430px;
+	float: left;
+}
+/* order-footer */
+.about-us-footer{
+	position: relative;
+	background: url(images/footer/contact-footer.jpg);
+}
 
 
 
