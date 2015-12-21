@@ -1088,6 +1088,10 @@ span.bcl-first{
     box-shadow: 1px 4.5px 0px -2px #aa662a;
     letter-spacing: 0.3px;
 }
+.ask-question:hover{
+	background: #212121;
+	color: #fbc02d;
+}
 /* article-footer */
 .article-footer{
 	position: relative;
@@ -1127,12 +1131,13 @@ span.bcl-first{
 }
 /* order-block */
 .order-block{
+	padding-bottom: 228px;
 	background: url(images/page-contact/block-contact-bg.png) no-repeat right bottom;
 }
 .order-block-inner{
 	width: 1140px;
 	margin: 0 auto;	
-	padding: 50px 0 228px 0;
+	padding: 50px 0 0px 0;
 	outline: 0px solid #E02638;
 }
 .order-block-inner h2{
@@ -1677,15 +1682,374 @@ ul a.remember:hover{
 	position: relative;
 	background: url(images/footer/contact-footer.jpg);
 }
+/*-----------------------------------------------------------------------------------*/
+/*  PAGE-VILAGE
+/*-----------------------------------------------------------------------------------*/
+.page-vilage-block {
+    padding-bottom: 68px;
+    background: url(images/page-contact/block-contact-bg.png) no-repeat right bottom;
+}
+.page-vilage{
+	width: 1140px;
+	margin: 0 auto;	
+	padding: 50px 0 0px 0;
+	outline: 0px solid #E02638;
+}
+.pv-text{
+	overflow: hidden;
+    margin-top: -2px;
+}
+.pv-text li{
+	width: 555px;
+}
+.pv-text li:first-child{
+	float: left;
+}
+.pv-text li:last-child{
+	float: right;
+}
+.pv-text p{
+	padding-bottom: 20px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #353535;
+}
+/* communications */
+.communications{
+    padding-bottom: 58px;
+}
+.communications h2{
+    padding: 28px 0 58px 0;
+	font-size: 30px;
+}
+.communications h2 span{
+	margin-bottom: 8px;
+}
+.communications ul{
+	overflow: hidden;
+	width: 850px;
+	margin: 0 auto;
+}
+.communications ul li{
+	width: 150px;
+	margin: 0 12px;
+	float: left;
+}
+.communications ul li:first-child{
+	margin-left: 0;
+}
+.communications ul li:last-child{
+	margin-right: 0;
+}
+.communications ul li img{
+	display: block;
+	margin: 0 auto;
+    padding-bottom: 27px;
+}
+.communications ul li span{
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	font-size: 18px;
+}
+/* pv-gallery */
+.pv-gallery{
+	position: relative;
+	width: 100%;
+	background: url(images/page-vilage/pv-gallery/pv-gallery-bg.jpg) center;
+}
+.pv-gallery .ab-img1{
 
-
-
-
-
-
-
-
-
-
-
-
+}
+.pv-gallery-inner{
+	width: 1140px;
+	margin: 0 auto;
+    padding-bottom: 71px;
+}
+.pv-gallery-inner h2{
+    padding: 59px 0 56px 0;
+	font-size: 30px;
+	color: #fff;
+}
+.pv-gallery-inner h2 span{
+	margin-bottom: 8px;
+}
+.pvg-block img{
+	border: 3px solid #fff;
+	border-radius: 5px;
+}
+/* a-vilage */
+.a-vilage{
+	position: relative;
+	width: 1140px;
+	margin: 0 auto;
+    padding-bottom: 19px;
+}
+.a-vilage .block2-img2{
+    bottom: -276px;
+}
+.a-vilage h2{
+	padding: 54px 0 58px 0;
+	font-size: 30px;
+}
+.a-vilage h2 span{
+	margin-bottom: 8px;
+}
+.a-vilage ul{
+	overflow: hidden;
+    padding-bottom: 13px;
+}
+.a-vilage ul li{
+	width: 555px;
+}
+.a-vilage ul li:first-child{
+	float: left;
+}
+.a-vilage ul li:last-child{
+	float: right;
+}
+.a-vilage ul li img{
+	display: inline-block;
+	padding-top: 8px;
+}
+.a-vilage p {
+    padding-bottom: 20px;
+    line-height: 24px;
+}
+.a-vilage ul > li > ul > li > p >span{
+	position: relative;
+	padding-left: 24px;
+	font-weight: 600;	
+}
+.a-vilage ul > li > ul > li > p >span:before{
+	position: absolute;
+    top: 2px;
+	left: 0;
+	content: '';
+	width: 15px;
+	height: 14px;
+	background: url(images/page-vilage/a-vilage/span-before-bg.png);
+}
+/* sign-up-for */
+.sign-up-for{
+	width: 100%;
+	background: url(images/page-vilage/sign-up-for/sign-up-for-bg.jpg) center no-repeat;
+}
+.sign-up-for > ul {
+	width: 1140px;
+	margin: 0 auto;
+    padding: 59px 0 67px 0;
+	overflow: hidden;
+}
+.sign-up-for > ul > li{
+	width: 555px;
+}
+.sign-up-for > ul > li:first-child{
+	float: left;
+}
+.sign-up-for > ul > li:last-child{
+	padding-bottom: 50px;
+	border-radius: 5px;
+	background: #fff;
+	border: 3px solid #fbc02d;
+	float: right;
+}
+/* sif-yandex-map */
+.sif-yandex-map{
+	position: relative;
+	overflow: hidden;
+    width: 550px;
+    border-radius: 5px;
+	border: 3px solid #fbc02d;
+}
+.sif-yandex-map h2{
+	position: absolute;
+	top: 47px;
+    width: 100%;
+    font-size: 30px;
+}
+.sif-yandex-map h2 span{
+	margin-bottom: 8px;
+}
+.sif-h3{
+	position: absolute;
+	top: 160px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    width: 477px;
+    height: 79px;
+    background: url(images/page-vilage/sign-up-for/sif-h3-bg.png) no-repeat;
+}
+.sif-h3 h3{
+	padding-top: 8px;
+	line-height: 30px;
+	font-size: 24px;
+	color: #fbc02d;
+	letter-spacing: 0.5px;
+}
+.book-section{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    width: 266px;
+    height: 40px;
+    padding: 2px 0px 0 0;
+    line-height: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16.15px;
+    letter-spacing: 0.5px;
+    background: #fbc02d;
+    box-shadow: 1px 4.5px 0px -2px #aa662a;
+}
+.book-section:hover{
+	color: #fbc02d;
+    background: #212121;
+    border: #212121;
+}
+/* suf-form */
+.suf-form{
+	width: 360px;
+    margin: 0 auto;
+}
+.sign-up-for > ul > li:last-child h3{
+	padding: 48px 0 45px 14px;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+.suf-form input{
+	width: 360px;
+	height: 50px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	border-radius: 5px;
+	border: 3px solid #fbc02d;
+}
+.suf-form input[type=submit] {
+	display: block;
+    width: 142px;
+    height: 39px;
+    margin: 28px auto 0 auto;
+    padding: 2px 0px 0 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16.15px;
+    background: #fbc02d;
+    box-shadow: 1px 4.5px 0px -2px #aa662a;
+}
+.suf-form input[type=submit]:hover {
+    color: #fbc02d;
+    background: #212121;
+    border: #212121;
+}
+.suf-form ::-webkit-input-placeholder { 
+	height: 50px;
+	font-size: 18px;
+	color: #d7d7d7;
+	padding-left: 13px;
+}
+.suf-form input :-moz-placeholder {
+	height: 50px;
+	font-size: 18px;
+	color: #d7d7d7;
+	padding-left: 13px;
+}
+.suf-form input ::-moz-placeholder { 
+	height: 50px;
+	font-size: 18px;
+	color: #d7d7d7;
+	padding-left: 13px;
+}
+.suf-form :-ms-input-placeholder { 
+	height: 50px;
+	font-size: 18px;
+	color: #d7d7d7;
+	padding-left: 13px;
+}
+.suf-form ul li:nth-child(2) ::-webkit-input-placeholder { 
+	padding-left: 25px;
+	background: url(images/page-vilage/sign-up-for/phone-bg.png) no-repeat;
+}
+.suf-form ul li:nth-child(2) :-moz-placeholder {
+	padding-left: 25px;
+	background: url(images/page-vilage/sign-up-for/phone-bg.png) no-repeat;
+}
+.suf-form ul li:nth-child(2) ::-moz-placeholder { 
+	padding-left: 25px;
+	background: url(images/page-vilage/sign-up-for/phone-bg.png) no-repeat;
+}
+.suf-form ul li:nth-child(2) :-ms-input-placeholder { 
+	padding-left: 25px;
+	background: url(images/page-vilage/sign-up-for/phone-bg.png) no-repeat;
+}
+.suf-form ul li:nth-child(3) ::-webkit-input-placeholder { 
+	padding-left: 25px;
+	background: url(images/page-vilage/sign-up-for/email-bg.png) no-repeat;
+}
+.suf-form ul li:nth-child(3) :-moz-placeholder {
+	padding-left: 25px;
+	background: url(images/page-vilage/sign-up-for/email-bg.png) no-repeat;
+}
+.suf-form ul li:nth-child(3) ::-moz-placeholder { 
+	padding-left: 25px;
+	background: url(images/page-vilage/sign-up-for/email-bg.png) no-repeat;
+}
+.suf-form ul li:nth-child(3) :-ms-input-placeholder { 
+	padding-left: 25px;
+	background: url(images/page-vilage/sign-up-for/email-bg.png) no-repeat;
+}
+/* infrastructure-village */
+.infrastructure-village{
+	width: 1140px;
+	margin: 0 auto;
+}
+.infrastructure-village h2{
+	padding: 50px 0 50px 0;
+	font-size: 30px;
+}
+.infrastructure-village > ul{
+	overflow: hidden;
+}
+.infrastructure-village > ul > li{
+	width: 472px;
+}
+.infrastructure-village > ul > li:first-child{
+	float: left;
+}
+.infrastructure-village > ul > li:last-child{
+	float: right;
+}
+.iv-ul > li{
+	padding: 14px 0 35px 0;
+}
+.iv-ul > li > a{
+	display: block;
+	overflow: hidden;
+}
+.iv-ul > li > a div{
+	width: 132px;
+	height: 108px;
+	float: left;
+}
+.iv-ul > li.iv-ul-first img{
+	    padding-top: 10px;
+}
+.iv-ul > li > a span{
+	display: table-cell;
+	vertical-align: middle;
+	width: 336px;
+	height: 102px;
+	line-height: 24px;
+	font-weight: 500;
+	font-size: 20px;
+}
+.iv-ul > li.iv-ul-first{
+	padding: 24px 0 25px 0;
+}
