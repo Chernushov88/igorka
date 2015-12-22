@@ -262,23 +262,30 @@ header{
 .block-2{
 	position: relative;
 	width: 100%;
-	outline: 0px solid #cfff00;	
-	background: url(images/block-2/slider/1.jpg) center center no-repeat;3
-	background-size: 100% 100%;
+	outline: 0px solid #cfff00;		
 }
 .block2-img1{
 	position: absolute;
+	z-index: 10;
 	top: 0;
 	left: 0;	
 }
 .block2-img2{
 	position: absolute;
+    z-index: 10;
 	bottom: -147px;
 	right: 0;	
 }
 .slider-block{	
+	position: absolute;
+	top: 0px;
+	left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    z-index: 1000;
 	width: 1140px;
-	height: 533px;
+	height: 450px;
     padding-top: 78px;
 	margin: 0 auto;
 }
@@ -487,6 +494,8 @@ header{
 	outline: 0px solid #000;
 }
 .block-5 p{
+    position: relative;
+    z-index: 100;
 	padding-bottom: 20px;
 	line-height: 24px;
 }
@@ -559,6 +568,8 @@ header{
 	padding: 49px 0 60px 0;
 }
 .block-5-inner3 p{
+    position: relative;
+    z-index: 100;
 	width: 555px;
 	float: right;
 }
@@ -806,6 +817,9 @@ footer{
 	top: 0;
 	left: 0;
 }
+.block-contact-img img{
+	height: 196px;
+}
 .block-contact-inner{
 	overflow: hidden;
 	width: 1140px;
@@ -818,6 +832,8 @@ footer{
 	padding: 64px 0 63px 0;
 }
 .bc-left{
+    position: relative;
+    z-index: 100;
 	width: 555px;
     padding: 9px 0 0 0;
 	color: #353535;
@@ -1001,6 +1017,8 @@ span.bcl-first{
 }
 /*-----*/
 .ab-titl-inner{
+    position: relative;
+    z-index: 100;
 	width: 1140px;
 	margin: 0 auto;
 	padding-bottom: 190px;
@@ -1351,6 +1369,8 @@ ul a.remember:hover{
 }
 /* additional-services */
 .additional-services{
+	position: relative;
+    z-index: 100;
 	overflow: hidden;
 }
 .additional-services h2{
@@ -1616,13 +1636,13 @@ ul a.remember:hover{
     border-left: 3px solid #fbc02d;
 }
 .map-about-us{
-	overflow: hidden;
-	width: 550px;
-    position: absolute;
-    z-index: 1;
     margin-top: 25px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
+    border: 3px solid #fbc02d;
+}
+.maus-text{
+	width: 1140px;
+	margin: 0 auto;
+    padding-top: 50px;
 }
 /* choose-us */
 .choose-us{
@@ -1632,6 +1652,8 @@ ul a.remember:hover{
     top: -80px;
 }
 .choose-us-inner{
+    position: relative;
+    z-index: 100;
 	width: 1140px;
 	margin: 0 auto;
 	outline: 0px solid #0000ff;
@@ -1641,6 +1663,8 @@ ul a.remember:hover{
 }
 /* our-details */
 .our-details{
+    position: relative;
+    z-index: 100;
 	width: 750px;
 	margin: 0 auto;
 	padding-bottom: 130px;
@@ -1716,6 +1740,8 @@ ul a.remember:hover{
 }
 /* communications */
 .communications{
+	position: relative;
+    z-index: 100;
     padding-bottom: 58px;
 }
 .communications h2{
@@ -1797,6 +1823,8 @@ ul a.remember:hover{
 	margin-bottom: 8px;
 }
 .a-vilage ul{
+	position: relative;
+    z-index: 100;
 	overflow: hidden;
     padding-bottom: 13px;
 }
@@ -1833,10 +1861,16 @@ ul a.remember:hover{
 }
 /* sign-up-for */
 .sign-up-for{
+	position: relative;
 	width: 100%;
 	background: url(images/page-vilage/sign-up-for/sign-up-for-bg.jpg) center no-repeat;
 }
+.sign-up-for .block2-img2{
+    top: -160px;
+}
 .sign-up-for > ul {
+	position: relative;
+    z-index: 100;
 	width: 1140px;
 	margin: 0 auto;
     padding: 59px 0 67px 0;
@@ -2015,6 +2049,8 @@ ul a.remember:hover{
 	font-size: 30px;
 }
 .infrastructure-village > ul{
+	position: relative;
+    z-index: 100;
 	overflow: hidden;
 }
 .infrastructure-village > ul > li{
